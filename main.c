@@ -146,6 +146,6 @@ int main()
 
     } while(resp != 0);
 
-    printf("FIM!!!");
+    printf("***FIM!!!***");
     return 0;
 }
