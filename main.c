@@ -103,7 +103,7 @@ int main()
     int valor;
     do
     {
-        printf("1-Adicionar 2-Buscar 3-Remover 4-Imprimir 0-Sair\n");
+        printf("1-Adicionar 2-Buscar 3-Remover 4-Imprimir 0-Sair");
         scanf("%d", &resp);
         switch(resp)
         {
@@ -146,6 +146,6 @@ int main()
 
     } while(resp != 0);
 
-    printf("***FIM!!!***");
+    printf("FIM!!!");
     return 0;
 }
