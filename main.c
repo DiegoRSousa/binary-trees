@@ -60,7 +60,7 @@ Arv* retira(Arv* r, int v)
         r->esq = retira(r->esq, v);
     else if(r->info < v)
         r->dir = retira(r->dir, v);
-    else //achou o elemento
+    else //encontrou o elemento
     {
         if(r->esq == NULL && r->dir == NULL)
         {
